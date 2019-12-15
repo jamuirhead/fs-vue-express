@@ -15,7 +15,7 @@ const posts = require('./routes/api/posts');
 app.use('/api/posts', posts);
 
 // handle production routes
-if (proecess.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === 'production') {
   // static folder
   app.use(express.static(__dirname + '/public'));
   // handle spa
