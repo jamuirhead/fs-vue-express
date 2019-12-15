@@ -1,0 +1,34 @@
+{
+  "name": "fs-vue-express",
+  "version": "1.0.0",
+  "description": "Full stack Vue, Express, Mongo app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index",
+    "dev": "nodemon server/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamuirhead/fs-vue-express.git"
+  },
+  "keywords": [
+    "vue",
+    "express",
+    "mongo"
+  ],
+  "author": "James Muirhead",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamuirhead/fs-vue-express/issues"
+  },
+  "homepage": "https://github.com/jamuirhead/fs-vue-express#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.4.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

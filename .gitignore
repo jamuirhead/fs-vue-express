@@ -1,0 +1,16 @@
+.DS_*
+**/*.backup.*
+**/*.back.*
+node_modules
+*.log
+dist/*.gz
+dist/*.map
+dist/*.js
+dist/vue.common.min.js
+coverage
+.vscode
+package-lock.json
+build
+npm-debug.log
+.env
+client
